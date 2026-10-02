@@ -994,9 +994,7 @@ export default function AssistPage() {
               )}
 
               {requestStatus !==
-                "resolved" &&
-                requestStatus !==
-                  "cancelled" && (
+                "resolved" && (
                   <button
                     onClick={
                       cancelRequest

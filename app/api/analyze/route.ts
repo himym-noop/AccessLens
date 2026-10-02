@@ -1487,7 +1487,7 @@ ${previousContext}
 
     const reasoning =
       reasonAboutAccessibility(
-        observations,
+        { observations },
         selectedMode,
         selectedThresholds,
       );
